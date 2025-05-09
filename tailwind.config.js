@@ -16,6 +16,17 @@ module.exports = {
         },
         dark: '#333333',
       },
+
+      animation: {
+        'drift-slow': 'drift 20s linear infinite',
+      },
+      keyframes: {
+        drift: {
+          '0%': { transform: 'translate(0, 0)' },
+          '100%': { transform: 'translate(100px, -100px)' },
+        },
+      },
+
     },
   },
   variants: {
