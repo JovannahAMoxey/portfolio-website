@@ -5,6 +5,7 @@ import Home from './pages/Home'; // Make sure this path is correct
 import Contact from './pages/Contact';
 import BlogViewer from './pages/BlogViewer';
 import BlogAdmin from './pages/BlogAdmin';
+import Projects from './pages/Projects';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<BlogViewer />} />
         <Route path="/admin" element={<BlogAdmin />} />
+        <Route path="/projects" element={<Projects />} />
+
       </Routes>
     </>
   );
